@@ -3,7 +3,7 @@
 ``` HTML
 <sql-select></sql-select>
 ```
-### Propiedades que son importante y **OBLIGATORIAS**
+### Propiedades que son importantes y **OBLIGATORIAS**
 - **src** : ruta de la db
 - **db-name** : nombre de la tabla
 - **columns** : columnas a regresar para regresar todas usamos "*"
