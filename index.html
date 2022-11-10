@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./js/dbHtmlTag.js"></script>
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <sql-select 
+      src="./db/data.db"
+      db-name="NOMBRES" 
+      columns="*" 
+      where="">
+    </sql-select>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
