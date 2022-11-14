@@ -18,7 +18,4 @@
 ```HTML
 <sql-select src="-/db/restaurante.db" db-name="ingredientes" columns="id, nombre" where=""></sql-select>
 ```
-## Meme
-![zyro-image](https://user-images.githubusercontent.com/75333543/201189540-52f2fd47-29d4-4cb0-8fb4-c31e94b83341.png)
-
 ## creditos al dueño del meme original  [programación orientada a memes](https://www.facebook.com/programacionorientadaamemes/)
