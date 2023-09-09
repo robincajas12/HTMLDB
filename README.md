@@ -18,4 +18,3 @@
 ```HTML
 <sql-select src="-/db/restaurante.db" db-name="ingredientes" columns="id, nombre" where=""></sql-select>
 ```
-## creditos al dueño del meme original  [programación orientada a memes](https://www.facebook.com/programacionorientadaamemes/)
